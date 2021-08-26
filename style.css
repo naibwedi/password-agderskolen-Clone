@@ -57,6 +57,13 @@ h1:hover {
 p:hover {
     background-color: white;
 }
+input {
+    width: 100px;
+    height: 30px;
+    
+}
+input:hover {
+    background-color: blue;
 @media (min-width:800px){
     body{
         font-size: 18px;
@@ -85,4 +92,7 @@ h1 {
 .glemt,.endre {
     font-size: 20px;
 }
+form {
+    margin-left: 40vw;
+    }
 }
