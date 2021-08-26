@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(80, 128, 190);
+    font-size: 15px;
+
+}
+.wrapper {
+    padding-left: 15vw;
+    margin-top: 130px;
+
+}
+.top-box {
+    border: 2px solid rgb(53, 53, 53);
+    width: 300px;
+    height: 120px;
+    padding-top: 0px;
+    padding-left: 15px;
+ 
+}
+
+.bottom-box {
+    border: 2px solid rgb(53, 53, 53);
+    width: 300px;
+    height: 60px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+  
+}
+
+h1 {
+    color: blue;
+    animation-name: title;
+    animation-duration: 5s;
+    position: relative;
+    display: inline;
+}
+h1:hover {
+    background-color: white;
+}
+@keyframes title {
+    0%   {background-color: white; left:0px; top:0px; display:inline ;}
+  25%  {background-color:yellow; left:200px; top:0px; display:inline ;}
+  50%  {background-color: red; left:200px; top:0px; display:inline ; transform: rotate(360deg); }
+  75%  {background-color:green; left:100px; top:0px; display:inline ;}
+  100% {background-color: white; left:0px; top:0px;display:inline ;}
+}
+
+.glemt {
+ margin-top: -5px;
+}
+.endre {
+    margin-top: -8px;
+}
+.reset:hover{
+    background-color: white;
+}
+p:hover {
+    background-color: white;
+}
+@media (min-width:800px){
+    body{
+        font-size: 18px;
+    }
+.wrapper {
+width: 800px;
+padding-left: 30vw;
+}
+.top-box {
+    width: 500px;
+    height: 150px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.bottom-box{
+    width: 500px;
+    height: 80px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+h1 {
+    font-size: 38px;
+    
+    margin-bottom: 20px;
+}
+.glemt,.endre {
+    font-size: 20px;
+}
+}
